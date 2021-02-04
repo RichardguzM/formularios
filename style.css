@@ -1,0 +1,66 @@
+input.naranja {
+    background-color: hsl(24, 100%, 50%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30px;
+    width: 180px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+input.nombre {
+    height: 40px;
+    width: 460px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+input.datos1 {
+    height: 40px;
+    width: 210px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+input.formulario1{
+    height: 20px;
+    width: 180px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+p.formulario2 {
+    font-size: x-large;
+    font-family: sans-serif;
+}
+optgroup.datos1{
+    width: 197px;
+}
+p.formulario1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+input.datos3 {
+    width: 290px;
+    height: 25px;
+}
+pre.registrate {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p.formulario3 {
+    font-size: small;
+    color: gray;
+}
+input.formulario3 {
+    height: 40px;
+    width: 290px;
+    background-color: hsla(110, 75%, 41%, 0.795);
+    color: white;
+}

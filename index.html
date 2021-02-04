@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- FORMULARIO 1 -->
+<h2>FORMULARIO 1</h2>
+
+<p class="formulario1">Accede a tu Área Clientes</p>
+
+<p>Elige tu documento</p>
+<input type="radio" name="color" value="dni">DNI o Tarjeta de residencia
+<br>
+<br>
+<input type="radio" name="color" value="pasaporte">Pasaporte
+<br>
+<br>
+Número de documento <br>
+<input class="formulario1" type="text" name="numero" placeholder="DNI o Tarjeta de residencia">
+<br>
+<br>
+Fecha de nacimiento <br>
+<input class="formulario1" type="date" name="fecha">
+<br>
+<br>
+<input type="checkbox" name="check"> Recordar
+<p>
+    <input class="naranja" type="submit" value="Entrar">
+</p>
+<a href="https://ing.ingdirect.es/pfm/#login-dnie" target="_blanck"> &#x276f; Acceder con DNI electronico</a><br>
+<a href="https://ing.ingdirect.es/pfm/#login/security-information" target="_blanck"> &#10095; Más información sobre seguridad</a>
+
+<br>
+<br>
+<!-- FORMULARIO 2 -->
+
+<hr>
+<h2>FORMULARIO 2</h2>
+<p class="formulario2">Empieza creando tu usuario
+<br>
+<br>
+<input class="nombre" type="text" name="usuario" placeholder=" Nombre (como sale en el DNI)">
+<br>
+<br>
+<input class="datos1" type="text" name="apellido1" placeholder=" 1º apellido (como sale en el DNI)">
+&nbsp; &nbsp;
+<input class="datos1" type="text" name="apellido2" placeholder=" 2º apellido (como sale en el DNI)">
+<br>
+<br>
+<select  name="documento" >
+    <optgroup class="datos1" label="Tipo de documento"></optgroup>
+    <option value="1">DNI</option>
+    <option value="2">NIF</option>
+    <option value="3">CERT.AEAT</option>
+</select>
+&nbsp; &nbsp;
+<input class="datos1" type="text" name="numerodoc" placeholder="Número de documento">
+<br>
+<br>
+<input class="datos1" type="telf" name="móvil" placeholder="Movil">
+&nbsp; &nbsp;
+<input class="datos1" type="text" name="Email" placeholder="Email">
+</p>
+<!-- FORMULARIO 3 -->
+
+
+<hr>
+
+<h2>FORMULARIO 3</h2>
+<h3>¿Eres nuevo?</h3>
+<pre class="registrate">Registrate para guardar tu información y hacer 
+     tus pedidos de forma más fácil y rápida</pre>
+<p class="formulario3">
+Email<br><input class="datos3" type="text" name="email2" placeholder="Introduce tu email"> <br><br>
+Teléfono<br><input class="datos3" type="text" name="telefono2" placeholder="Tu teléfono"><br><br>
+Contraseña<br><input class="datos3" type="text" name="contrasena2" placeholder="Introduce tu contraseña"><br><br>
+Confirma tu contraseña<br><input class="datos3" type="text" name="confirmar2" placeholder="Confirmar tu contraseña"><br><br>
+<input type="checkbox" name="normas">He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a><br><br>
+<input type="checkbox" name="aceptar">Sí, acepto recibir comunicaciones comerciales y ofertas persanalizadas según mi perfil.
+<br>
+<br>
+<br>
+    <input class="formulario3" type="submit" value="Crea tu cuenta">
+</p>
+</body>
+</html>
